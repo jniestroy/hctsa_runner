@@ -1,3 +1,6 @@
+% Make sure Fulcher hctsa is installed an in path
+
+
 % Load JSON config
 configData = fileread('./Configs/cleanedMasterOperations.json');
 config = jsondecode(configData);
