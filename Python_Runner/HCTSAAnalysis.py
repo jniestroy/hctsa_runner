@@ -4,6 +4,9 @@ import json
 import pyarrow.parquet as pq
 from Python_Runner.operations_map import OPERATIONS_MAP
 
+# TODO Add transformatin handling
+# TODO Update DN_Mean, Spread, ObsCount to be like Fulchers 
+
 class HCTSAAnalysis:
     def __init__(self, config):
         self.config = config
